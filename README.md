@@ -53,6 +53,7 @@ if __name__ == '__main__':
 ~~~
 
 * 코드 삽입
+
 ~~~
 import xml.etree.ElementTree as etree
 import sys
@@ -88,9 +89,8 @@ if __name__ == "__main__":
 # xml파일 읽어서 csv 파일로 저장~~~
 
 
-
-
 * 코드 삽입
+
 ~~~
 # -*- coding: utf-8 -*-
 import matplotlib.pyplot as plt
@@ -106,18 +106,14 @@ import sys
 def GRAPHY():
 #pip install pandas, pip install matplotlib
     df = pd.read_csv('CSVCSV.csv',engine='python')
-
-
     plt.subplot(211)
     plt.bar(df['차종'],df['교통량'])
     plt.xlabel('')
     plt.ylabel("교통량")
-
     plt.subplot(212)
     plt.bar(df['입출구'],df['교통량'])
     plt.xlabel('')
     plt.ylabel("교통량")
-
     plt.title('')
     plt.show()
     print(df)
