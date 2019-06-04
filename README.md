@@ -99,15 +99,12 @@ if __name__ == "__main__":
 ~~~
 # -*- coding: utf-8 -*-
 import matplotlib.pyplot as plt
-import numpy as np
 import pandas as pd
 import csv
 from matplotlib import font_manager, rc
 font_name = font_manager.FontProperties(fname='c:/Windows/Fonts/malgun.ttf').get_name()
 rc('font',family=font_name)
-import xml.etree.ElementTree as etree
-import HIGHWAY3api
-import sys
+
 def GRAPHY():
 #pip install pandas, pip install matplotlib
     df = pd.read_csv('CSVCSV.csv',engine='python')
