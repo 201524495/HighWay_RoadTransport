@@ -20,6 +20,7 @@
 * [그래프](https://github.com/201524495/p2019/blob/master/HIGHGra.py)
 
 * 코드 삽입
+
 #api이용해서 xml 불러오기 & 저장하기
 ~~~python
 import urllib.request #pip install requests
@@ -54,6 +55,7 @@ if __name__ == '__main__':
 ~~~
 
 * 코드 삽입
+
 # xml파일 읽어서 csv 파일로 저장
 ~~~
 import xml.etree.ElementTree as etree
@@ -92,7 +94,8 @@ if __name__ == "__main__":
 
 
 * 코드 삽입
-그래프 
+
+그래프 그리기
 ~~~
 # -*- coding: utf-8 -*-
 import matplotlib.pyplot as plt
