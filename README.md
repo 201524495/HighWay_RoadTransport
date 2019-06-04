@@ -22,7 +22,7 @@
 
 * 
 
-api이용해서 xml 불러오기 & 저장하기
+# api이용해서 xml 불러오기 & 저장하기
 ~~~
 import urllib.request #pip install requests
 import csv
@@ -95,7 +95,7 @@ if __name__ == "__main__":
 
 * 
 
-#그래프 그리기
+# 그래프 그리기
 ~~~
 # -*- coding: utf-8 -*-
 import matplotlib.pyplot as plt
