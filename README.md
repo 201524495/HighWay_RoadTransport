@@ -7,7 +7,9 @@
 
 
 ## 프로젝트 개요
-실시간 톨게이트 교통량 확인
+전체 프로젝트를 수행하는 흐름도를 표나 그림으로 작성(본문스타일)  
+공공데이터포털(data.go.kr)에 있는 오픈 api를 이용해 xml 파일 및 csv 파일로 변형 시켜 
+입구/출구에 대한 통행량, 차종에 대한 통행량을 그래프로 표현한다.
 
 ## 사용한 공공데이터 
 [데이터보기](http://data.ex.co.kr/exopenapi/trafficapi/trafficIc?serviceKey=sFogfIyQvOkImGDglyDSE5KbjRXkU1QNWFzOg8Zb5Dzx0tIjWfiOUOU7qmzMf%2BUDg978J07nsNabd5aA56D8aQ%3D%3D&type=xml&exDivCode=00&unitCode=140&numOfRows=999)
