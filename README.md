@@ -50,6 +50,10 @@ def XML() :
 if __name__ == '__main__':
     XML()
 #api이용해서 xml 불러오기 & 저장하기
+~~~
+
+* 코드 삽입
+~~~
 import xml.etree.ElementTree as etree
 import sys
 import csv
@@ -81,7 +85,13 @@ def READ():
 
 if __name__ == "__main__":
     READ()
-# xml파일 읽어서 csv 파일로 저장
+# xml파일 읽어서 csv 파일로 저장~~~
+
+
+
+
+* 코드 삽입
+~~~
 # -*- coding: utf-8 -*-
 import matplotlib.pyplot as plt
 import numpy as np
