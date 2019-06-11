@@ -24,7 +24,7 @@
 
 # api이용해서 xml 불러오기 & 저장하기
 ~~~
-import urllib.request #pip install requests
+import urllib.request #pip install requests //웹을 열어 데이터를 읽어오는 모듈
 
 def XML() :
     unitCode = input("영업소 코드를 입력하세요")
@@ -57,10 +57,10 @@ if __name__ == '__main__':
 # xml파일 읽어서 csv 파일로 저장
 ~~~
 import xml.etree.ElementTree as etree
-import sys
+import sys //인터프리터를 제어하는 모듈
 
 def READ():
-    sys.stdout = open('CSVCSV.csv','w')
+    sys.stdout = open('CSVCSV.csv','w') //인터프리터에 나온 값을 
     tree = etree.parse('sample1.xml')
     root = tree.getroot()
     print(
