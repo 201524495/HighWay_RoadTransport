@@ -60,7 +60,7 @@ import xml.etree.ElementTree as etree
 import sys //인터프리터를 제어하는 모듈
 
 def READ():
-    sys.stdout = open('CSVCSV.csv','w') //인터프리터에 나온 값을 
+    sys.stdout = open('CSVCSV.csv','w') //인터프리터에 나온 값을 저장
     tree = etree.parse('sample1.xml')
     root = tree.getroot()
     print(
