@@ -105,7 +105,7 @@ rc('font',family=font_name)
 def GRAPHY():
 #pip install pandas, pip install matplotlib
     df = pd.read_csv('CSVCSV.csv',engine='python')
-
+    print(df)
     plt.subplot(211)
     plt.scatter(df['차종'],df['입출구'],df['교통량'])
     plt.ylabel("교통량")
@@ -115,7 +115,7 @@ def GRAPHY():
     plt.ylabel("교통량")
 
     plt.show()
-    print(df)
+    
 if __name__ == "__main__":
     GRAPHY()
 ~~~
