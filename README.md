@@ -25,8 +25,6 @@
 # api이용해서 xml 불러오기 & 저장하기
 ~~~
 import urllib.request #pip install requests
-import csv
-import pandas as pd
 
 def XML() :
     unitCode = input("영업소 코드를 입력하세요")
@@ -60,7 +58,6 @@ if __name__ == '__main__':
 ~~~
 import xml.etree.ElementTree as etree
 import sys
-import csv
 
 def READ():
     sys.stdout = open('CSVCSV.csv','w')
