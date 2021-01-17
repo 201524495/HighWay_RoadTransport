@@ -123,6 +123,10 @@ if __name__ == "__main__":
 
 #결과 화면
 
-![]()
++파이썬에서 확인할 수 있는 결과
 
-![]()
+![CSV_Python](https://github.com/201524495/p2019/blob/master/csv(6.4).PNG)
+
++CSV 파일을 보기 쉽게 그래프로 표현했다.
+
+![Graph_Python](https://github.com/201524495/p2019/blob/master/그래프(6.4).PNG)
